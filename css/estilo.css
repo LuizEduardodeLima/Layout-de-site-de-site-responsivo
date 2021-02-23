@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+}
+
+
+.centro{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo{
+	max-width: 1280px;
+	height: 70px;
+	background-color: #483d8b;
+
+}
+
+.centro img{
+	width: 130px;
+}
+.centro h1{
+	display: inline-block;
+	padding-top: 20px;
+	position: absolute;
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+}
+
+/*Banner do site*/
+.container{
+	width: 100%;
+	height: 400px;
+	background-image: url('../imagens/estrada.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.container > .centro{
+	height: 100%;
+	width: 100%;
+}
+
+.frases{
+	float: left;
+	width: 450px;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-top: 70px;
+	margin-left: 18px;
+}
+.frases p{
+	font-size: 20px;
+	font-family: 'Bebas Neue', cursive;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: justify;
+	color: white;
+}
+
+.formulario{
+	width: 350px;
+	height: calc(100% + 40px);
+	background-color: #f5f7f2;
+	float: right;
+	position: relative;
+	top: -20px;
+	margin-right: 50px;
+	border: 5px solid black;
+}
+
+.formulario h2{
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	font-weight: normal;
+	padding: 5px 5px 5px 5px;
+}
+
+.formulario form p{
+	margin-top: 15px;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	color: black;
+	font-size: 22px;
+}
+
+.formulario form #enter{
+	font-size: 22px;
+	width: 300px;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-family: 'Bebas Neue', cursive;
+	background-color: #483d8b;
+	color: white;
+	border: 3px solid black;
+	/*Fazendo com que o cursor vire uma mãozinha quando estive sobre o elemento: */
+	cursor: pointer;
+}
+
+.formulario form #enter:hover{
+	background-color: black;
+
+}
+
+.entradas{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.entradas span{
+	display: inline-block;
+	width: 100%;
+	font-size: 20px;
+	color: black;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.entradas input[type=text]{
+	width: 300px;
+	height: 40px;
+	border: 1px solid black;
+	font-size: 22px;
+
+}
+
+.container-2{
+	padding-top: 50px;
+	background-color: #DDDDDD;
+}
+
+.container-2 h2{
+	text-align: center;
+	padding-bottom: 20px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+
+}
+
+.container-2 p{
+	text-align: justify;
+	margin: 0px 10px 10px 10px;
+	font-size: 18px;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+}
+
+.icone-1{
+	width: 100px;
+	height: 100px;
+	background-image: url('../imagens/livro.png');
+	position: relative;
+	top: 50px;
+	left: 45%;
+
+}
+
+/*Parte três do site*/
+.container-3 h2{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 25px;
+	font-family: 'Bebas Neue', cursive;
+}
+.container-3{
+	background-color: #483d8b;
+	padding-bottom: 15px;
+}
+
+.caixa{
+	display: flex;
+}
+
+.foto{
+	order: 1;
+	background-image: url('../imagens/camus.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+	margin-left: 40px;
+	margin-top: 30px;
+	border: 3px solid white;
+}
+
+#texto{
+	width: 70%;
+	order: 2;
+	/*Quebrando a linha para ela não ultrapassar a div: */
+	word-wrap: break-word;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 30px;
+	padding-top: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgba(255, 255, 255, 0.4);
+	color: black;
+	font-size: 22px;
+	text-align: justify;
+	font-family: 'Bebas Neue', cursive;
+}
+
+
+/*Rodapé do site*/
+.final{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #DDDDDD;
+	border: 2px solid black;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 22px;
+}
