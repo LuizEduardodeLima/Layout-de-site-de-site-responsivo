@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Título da página-->
+	<title>Café com filosofia - Sua dose diária de sabedoria</title>
+
+	<!--Codificação utf8-->
+	<meta charset="utf-8">
+
+	<!--Arquivo externo de css-->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!--Links da fonte goolge-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<!--Parte superior do site-->
+	<div class="logo">
+		<div class="centro">
+			<img src="imagens/logo.png">
+			<h1>Café com filosofia</h1>
+		</div>
+	</div>
+
+	<!--Banner do site-->
+	<div class="container">
+		<div class="centro">
+			<div class="frases">
+				<ul>
+					<li>
+						<p>"A solidão é a sorte de todos os espíritos excepecionais". (Arthur Schopenhauer)
+						</p>
+					</li>
+				</ul>
+				
+				<ul>
+					<li>
+						<p>
+							"Quanto mais elevado é o espírito mais ele sofre". (Arthur Schopenhauer)
+						</p>
+					</li>
+				</ul>
+			
+				<ul>
+					<li>
+						<p>
+							"Amar uma pessoa significa querer envelhecer com ela". (Albert Camus)
+						</p>
+					</li>
+				</ul>
+
+				<ul>
+					<li>
+						<p>
+							"Não ser amado é falta de sorte, mas não amar é a própria infelicidade". (Albert Camus)
+						</p>
+					</li>
+				</ul>
+			</div>
+
+			<!--Formulario da págia-->
+			<div class="formulario">
+				<h2>Cadastre seu e-mail para receber sua dose diária de filosofia</h2>
+
+				<form>
+					<div class="entradas">
+						<span>Nome*</span>
+						<input type="text" name="nome" required="">
+					</div>
+
+					<div class="entradas">
+						<span>E-mail*</span>
+						<input type="text" name="nome" required="">
+					</div>
+
+					<div class="entradas">
+						<span>Telefone*</span>
+						<input type="text" name="nome" required="">
+					</div>
+
+					<p class="aviso">*Campos obrigatórios</p>
+
+					<input id="enter" type="submit" name="envio" value="Enviar">
+
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--Parte do meio do site-->
+	<div class="container-2">
+		<div class="centro">
+			<h2>Friedrich Nietzsche - O viajante</h2>
+			<p>Aquele que quiser, mesmo que fosse somente em certa medida, chegar à liberdade da razão, não tem o direito de se sentir na terra de outra forma senão como viajante - e nem mesmo para um périplo para um objetivo final: pois não o tem. Mas se porá a observar bem e a manter o olhos abertos para tudo o que se passa realmente no mundo; é por isso que não pode apegar muito intensamente seu coração a nada em particular, é preciso que tenha sempre nele alguma coisa de viajante que tem prazer pelas mudanças e pela passagem. Sem dúvida, semelhante homem terá noites ruins quando deverá estar cansado e encontrar fechada a porta da cidade que deveria lhe oferecer repouso; pode ser que, além disso, como no oriente, o deserto se estenda até essa porta, que os animais selvagens uivem ora longe, ora perto, que um vento violento se levante, que salteadores lhe roubem os animais de carga. Então talvez a espantosa noite haverá de descer sobre ele como um segundo deserto no deserto e seu coração fique cansado de viajar. Então talvez a aurora se levante sobre ele, ardente como uma divindade em estado de ira, que a cidade se abra, e ele há de ver talvez no rosto dos habitantes mais ainda deserto, sujeira, velhacaira, insegurança que do lado de fora das portas - e o dia será quase pior que a noite.
+			Isso Pode acontecer às vezes ao viajante; mas em seguida vêm, em compensação, as manhãs delicioasas de outras regiões e de outras jornadas, nas quais vê desde o despontar do dia, nas neblinas dos montes, os coros das musas avançar dançando a seu encontro, depois, mais tarde, quando pacificamente no equilíbrio da alma das manhãs, ao passear sob as árvores, cair a seus pés, de seu topo e de suas copas, uma quantidade de coisas boas e claras, os presentes de todos os espíritos livres que estão em sua casa na montanha, na floresta e na solidão, e que, precisamente como ele, à sua maneira ora alegre ora refletida, são viajantes e filósofos. Nascidos dos mistérios da manhã, pensam em quem pode dar ao dia, entre a décima e a décima segunda batida do relógio, um rosto tão puro, tão penetrado de luz, tão radiante de claridade - eles procuram a <i>filosofia de antes do meio-dia.</i></p>
+		</div>
+
+		<div class="icone-1"></div>
+	</div>
+
+	<!--Parte três do site-->
+	<div class="container-3">
+
+		<h2>Mural da Filosofia</h2>
+
+		<div class="caixa">
+			
+
+			<div class="foto"></div>
+
+			<p id="texto">"Não caminhes na minha frente, eu posso não segui-lo. Não caminha atrás de mim, eu não posso conduzi-lo. Apenas caminhe ao meu lado e seja meu amigo". (Albert Camus)</p>
+
+		</div>
+
+	</div>
+
+	<!--Rodapé do site-->
+	<div class="final">&copy; Luiz Eduardo de Lima 2020</div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+	<script type="text/javascript">
+		var tempo, imagem, n1, frases;
+
+		n1 = 0;
+
+		imagem = ['imagens/camus.jpg', 'imagens/nietzsche.jpg', 'imagens/sartre.jpg', 'imagens/schopenhauer.jpg', 'imagens/seneca.jpg'];
+
+		frases = ['"Não caminhes na minha frente, eu posso não segui-lo. Não caminha atrás de mim, eu não posso conduzi-lo. Apenas caminhe ao meu lado e seja meu amigo". (Albert Camus)', '"Não ouse roubar a minha solidão, se não fores capaz de me fazer real companhia. (Friedrich Nietzsche)".', '"Nunca se é homem enquanto se não encontra alguma coisa pela qual se estaria disposto a morrer". (Jean Paul Sartre)', '"Quanto menos inteligente um homem é, menos misteriosa lhe parece a existência". (Arthur Schopenhauer)', '"O homem que sofre antes de ser necessário, sofre mais que o necessário". (Sêneca)']
+		
+
+		tempo = setInterval(function(){
+
+			$('.foto').css('background-image', 'url(' + imagem[n1] + ')');
+			$('#texto').html('<p>'+ frases[n1] + '</p>');
+
+			n1 += 1;
+			if (n1 == 5) {
+				n1 = 0;
+			}
+
+		}, 10000);
+	</script>
+
+</body>
+</html>
